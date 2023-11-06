@@ -57,7 +57,7 @@ export function Header () {
             </Link>
           </MenuItem>
           <MenuItem className='rounded-lg transition-colors text-gray-300 hover:bg-secondary-900 p-0'>
-            <Link to='/' className='flex items-center gap-4 py-2 px-4'>
+            <Link to='/hoola' className='flex items-center gap-4 py-2 px-4'>
               <RiChat3Line className='w-8 h-8 p-2 bg-yellow-200 text-yellow-700 rounded-full' />
               <div className='text-sm flex flex-col'>
                 <div className='flex items-center justify-between gap-4'>
@@ -71,7 +71,7 @@ export function Header () {
           <hr className='my-4 border-gray-500' />
           <div className='flex justify-center'>
             <MenuItem className='rounded-lg transition-colors font-semibold hover:text-black hover:bg-primary p-0 '>
-              <Link to='/' className='text-gray-500 text-sm py-2 px-4'>Todas las notificaciones</Link>
+              <Link to='/asdasd' className='text-gray-500 text-sm py-2 px-4'>Todas las notificaciones</Link>
             </MenuItem>
           </div>
         </Menu>
